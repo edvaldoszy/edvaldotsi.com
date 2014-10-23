@@ -180,6 +180,9 @@ textarea.tf {
 }
 
 .wrap-content .services .item img {
+	display: block;
+	width: 200px;
+	margin: 0 auto;
 	border: 5px solid #bbb;
 }
 
@@ -191,4 +194,9 @@ textarea.tf {
 .wrap-content .services .item p {
 	padding: 20px 0 0 0;
 	font-size: 14px;
+}
+
+.wrap-footer {
+	height: 90px;
+	padding: 20px 0 0 0;
 }
