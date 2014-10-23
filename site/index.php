@@ -31,23 +31,24 @@
 			<div class="content">
 				<div class="services text-center">
 					<div class="item">
-						<h2>Desenvolvimento Web</h2>
+						<h2>Web</h2>
 						<img class="circle" src="/web/img/tecnologia.jpg" alt="">
-						<p class="text-justify">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus at culpa obcaecati, recusandae. Tenetur neque, ad quam cumque consequuntur modi ea officiis voluptatem architecto. Excepturi iure accusantium, doloribus fugiat earum.</p>
 						<a class="bt bt-more" href="#">Saiba mais</a>
 					</div>
 					<div class="item">
-						<h2>Consultoria</h2>
+						<h2>Mobile</h2>
 						<img class="circle" src="/web/img/tecnologia.jpg" alt="">
-						<p class="text-justify">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, optio voluptate sapiente hic cumque sunt harum porro dolorem blanditiis enim. Eligendi quos minima provident minus, laborum nihil repellendus, ipsa alias.</p>
 						<a class="bt bt-more" href="#">Saiba mais</a>
 					</div>
 					<div class="item">
-						<h2>Administração Linux</h2>
+						<h2>Linux</h2>
 						<img class="circle" src="/web/img/tecnologia.jpg" alt="">
-						<p class="text-justify">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt inventore dolorum iste expedita vel odio doloremque corporis officia tenetur quam quae atque aperiam, in accusantium. Veritatis soluta natus sapiente, assumenda!</p>
 						<a class="bt bt-more" href="#">Saiba mais</a>
 					</div>
+					<div class="clear"></div>
 				</div> <!-- .services -->
 			</div>
 		</main><!-- .wrap-content -->
