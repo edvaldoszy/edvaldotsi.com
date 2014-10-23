@@ -169,12 +169,26 @@ textarea.tf {
 /* CORPO */
 
 .wrap-content {
-	background: #ccc;
+	padding: 40px 0 0 0;
 }
 
 .wrap-content .services .item {
 	display: inline-block;
 	width: 33%;
 	height: 300px;
-	background: #ddd;
+	padding: 0 20px;
+}
+
+.wrap-content .services .item img {
+	border: 5px solid #bbb;
+}
+
+.wrap-content .services .item h2 {
+	padding: 10px 0 0 0;
+	font-size: 16px;
+}
+
+.wrap-content .services .item p {
+	padding: 20px 0 0 0;
+	font-size: 14px;
 }

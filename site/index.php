@@ -29,12 +29,22 @@
 		</header>
 		<main class="wrap-content responsive">
 			<div class="content">
-				<div class="services">
+				<div class="services text-center">
 					<div class="item">
 						<img class="circle" style="display: block; width: 200px; margin: 0 auto;" src="/web/img/tecnologia.jpg" alt="">
+						<h2>Desenvolvimento Web</h2>
+						<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.</p>
 					</div>
-					<div class="item"></div>
-					<div class="item"></div>
+					<div class="item">
+						<img class="circle" style="display: block; width: 200px; margin: 0 auto;" src="/web/img/tecnologia.jpg" alt="">
+						<h2>Desenvolvimento Web</h2>
+						<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.</p>
+					</div>
+					<div class="item">
+						<img class="circle" style="display: block; width: 200px; margin: 0 auto;" src="/web/img/tecnologia.jpg" alt="">
+						<h2>Desenvolvimento Web</h2>
+						<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.</p>
+					</div>
 				</div>
 			</div>
 			
