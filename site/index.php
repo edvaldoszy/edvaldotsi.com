@@ -53,7 +53,19 @@
 		</main>
 		<footer class="wrap-footer">
 			<div class="content">
-				
+				<nav class="links">
+					<ul>
+						<li class="font-bold">Comunidade</li>
+						<li><a href="http://github.com/edvaldotsi" target="_blank" title="Copie, modifique, contribua com projetos">Github</a></li>
+					</ul>
+					<ul>
+						<li class="font-bold">Redes sociais</li>
+						<li><a href="http://facebook.com/edvaldoszy" target="_blank" title="Curta nossa página no Facebook">Facebook</a></li>
+						<li><a href="http://plus.google.com/" target="_blank" title="Siga-nos no Google Plus">Google Plus</a></li>
+						<li><a href="http://twitter.com" target="_blank" title="Siga-nos no Twitter">Twitter</a></li>
+					</ul>
+					<div class="clear"></div>
+				</nav>
 			</div>
 		</footer>
 	</div>

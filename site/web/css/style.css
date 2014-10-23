@@ -168,13 +168,12 @@ textarea.tf {
 /* CORPO */
 
 .wrap-content {
-	padding: 40px 0 0 0;
+	padding: 80px 0 0 0;
 }
 
 .wrap-content .services .item {
 	display: inline-block;
 	width: 33%;
-	height: 300px;
 	padding: 0 20px;
 }
 
@@ -212,6 +211,21 @@ textarea.tf {
 /* RODAPE */
 
 .wrap-footer {
-	height: 90px;
-	padding: 20px 0 0 0;
+	padding: 80px 0 60px 0;
+}
+
+.wrap-footer .content {
+	padding: 60px 0 0 0;
+	border-top: 1px solid #ccc;
+}
+
+.wrap-footer .links ul {
+	list-style: none;
+	display: block;
+	float: left;
+	margin: 0 40px 0 0;
+}
+
+.wrap-footer .links ul li{
+	padding: 6px 0;
 }
