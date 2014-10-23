@@ -24,9 +24,9 @@
 						<li><a href="/portifolio" title="Meu portifólio">Portifólio</a></li>
 						<li><a href="/contato" title="Entre em contato">Contato</a></li>
 					</ul>
-				</nav>
+				</nav><!-- .navbar -->
 			</div>
-		</header>
+		</header><!-- .wrap-header -->
 		<main class="wrap-content responsive">
 			<div class="content">
 				<div class="services text-center">
@@ -48,9 +48,9 @@
 						<p class="text-justify">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.</p>
 						<a class="bt bt-more" href="#">Saiba mais</a>
 					</div>
-				</div>
+				</div> <!-- .services -->
 			</div>
-		</main>
+		</main><!-- .wrap-content -->
 		<footer class="wrap-footer">
 			<div class="content">
 				<nav class="links">
@@ -73,9 +73,9 @@
 						<li><a href="http://github.com/edvaldotsi" target="_blank" title="Copie, modifique, contribua com projetos">Github</a></li>
 					</ul>
 					<div class="clear"></div>
-				</nav>
+				</nav><!-- .link -->
 			</div>
-		</footer>
+		</footer><!-- .wrap-footer -->
 	</div>
 </body>
 </html>
