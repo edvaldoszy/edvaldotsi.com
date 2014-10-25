@@ -1,4 +1,4 @@
-edvaldotsi
+Edvaldo TSI
 ==========
 
-Website
+Projeto completo do meu website pessoal
