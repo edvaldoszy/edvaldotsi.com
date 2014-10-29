@@ -14,7 +14,8 @@
 	<meta property="og:site_name" content="Edvaldo Szymonek">
 	<meta property="og:description" content="Descrição do website para o Facebook">
 	<link rel="shortcut icon" href="/web/img/favicon.ico" type="image/x-icon">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<!--<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="/web/css/style.css" media="all">
 </head>
 <body>
