@@ -126,7 +126,9 @@ textarea.tf {
 
 /* FIM DOS PADRÕES DE ESTILO */
 
-.wrap {}
+.wrap {
+	background: transparent url("../img/bg-header.png") no-repeat fixed top center;
+}
 
 .wrap .content {
 	margin: 0 auto;
@@ -138,7 +140,6 @@ textarea.tf {
 /* CABEÇALHO */
 .wrap-header {
 	height: 370px;
-	background: transparent url("../img/bg-header.png") no-repeat top center;
 }
 
 .wrap-header .content h1 {
@@ -173,6 +174,7 @@ textarea.tf {
 
 .container {
 	padding: 40px 0;
+	background: #fff;
 }
 
 .container h3 {
