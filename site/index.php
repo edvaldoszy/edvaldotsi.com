@@ -35,7 +35,7 @@
 		</header><!-- .wrap-header -->
 
 		<main class="wrap-main responsive">
-			<div class="container wrap-services responsive">
+			<section class="container wrap-services responsive">
 				<div class="content">
 					<div class="services text-center">
 						<div class="item">
@@ -59,14 +59,14 @@
 						<div class="clear"></div>
 					</div> <!-- .services -->
 				</div>
-			</div>
+			</section>
 
-			<div class="container wrap-mobile responsive">
+			<section class="container wrap-mobile responsive">
 				<div class="content">
 					<h3 class="text-center">Mobile</h3>
 					<p></p>
 				</div>
-			</div>
+			</section>
 		</main><!-- .wrap-content -->
 
 		<footer class="wrap-footer responsive">
