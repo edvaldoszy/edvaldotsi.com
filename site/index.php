@@ -38,7 +38,7 @@
 		<main class="wrap-main responsive">
 			<section class="container responsive wrap-services">
 				<div class="content">
-					<div class="services clearfix text-center">
+					<div class="services text-center">
 						<div class="item">
 							<h2>Web</h2>
 							<img class="circle" src="/web/img/content/tech.jpg" alt="">
@@ -57,6 +57,7 @@
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt inventore dolorum iste expedita vel odio doloremque corporis officia tenetur quam quae atque aperiam, in accusantium. Veritatis soluta natus sapiente, assumenda!</p>
 							<a class="bt bt-more" href="#">Saiba mais</a>
 						</div>
+						<div class="clearfix"></div>
 					</div> <!-- .services -->
 				</div>
 			</section>
