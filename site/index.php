@@ -13,7 +13,7 @@
 	<meta property="og:title" content="Edvaldo's personal website">
 	<meta property="og:site_name" content="Edvaldo Szymonek">
 	<meta property="og:description" content="Descrição do website para o Facebook">
-	<link rel="shortcut icon" href="/web/img/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/web/img/icons/favicon.ico" type="image/x-icon">
 	<!--<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="/web/css/style.css" media="all">
@@ -36,36 +36,46 @@
 		</header><!-- .wrap-header -->
 
 		<main class="wrap-main responsive">
-			<section class="container wrap-services responsive">
+			<section class="container responsive wrap-services">
 				<div class="content">
-					<div class="services text-center">
+					<div class="services clearfix text-center">
 						<div class="item">
 							<h2>Web</h2>
-							<img class="circle" src="/web/img/tecnologia.jpg" alt="">
+							<img class="circle" src="/web/img/content/tech.jpg" alt="">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus at culpa obcaecati, recusandae. Tenetur neque, ad quam cumque consequuntur modi ea officiis voluptatem architecto. Excepturi iure accusantium, doloribus fugiat earum.</p>
 							<a class="bt bt-more" href="#">Saiba mais</a>
 						</div>
 						<div class="item">
 							<h2>Mobile</h2>
-							<img class="circle" src="/web/img/tecnologia.jpg" alt="">
+							<img class="circle" src="/web/img/content/tech.jpg" alt="">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, optio voluptate sapiente hic cumque sunt harum porro dolorem blanditiis enim. Eligendi quos minima provident minus, laborum nihil repellendus, ipsa alias.</p>
 							<a class="bt bt-more" href="#">Saiba mais</a>
 						</div>
 						<div class="item">
 							<h2>Linux</h2>
-							<img class="circle" src="/web/img/tecnologia.jpg" alt="">
+							<img class="circle" src="/web/img/content/tech.jpg" alt="">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt inventore dolorum iste expedita vel odio doloremque corporis officia tenetur quam quae atque aperiam, in accusantium. Veritatis soluta natus sapiente, assumenda!</p>
 							<a class="bt bt-more" href="#">Saiba mais</a>
 						</div>
-						<div class="clear"></div>
 					</div> <!-- .services -->
 				</div>
 			</section>
 
-			<section class="container wrap-mobile responsive">
+			<section class="container responsive wrap-mobile">
 				<div class="content">
-					<h3 class="text-center">Mobile</h3>
-					<p></p>
+					<img class="float-left" src="/web/img/content/smartphones.png" alt="Smartphone">
+					<h2>
+						<div>Acesse a qualquer hora, em qualquer lugar.</div>
+						<div>Seu site disponível na maioria dos dipositivos e resoluções.</div>
+					</h2>
+					<p>Nossos layouts são desenvolvidos pensando na melhor experiência do usuário, seja utilizando um computador ou um smartphone.</p>
+					<div class="clearfix"></div>
+				</div>
+			</section>
+
+			<section class="container responsive wrap-test">
+				<div class="content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic magni nesciunt rem, deserunt ratione veniam quis, quidem, non adipisci amet magnam quasi quae animi ea. Numquam cupiditate, maxime commodi totam.</p>
 				</div>
 			</section>
 		</main><!-- .wrap-content -->
@@ -92,7 +102,7 @@
 						<li class="font-bold">Comunidade</li>
 						<li><a href="http://github.com/edvaldotsi" target="_blank" title="Copie, modifique, contribua com projetos">Github</a></li>
 					</ul>
-					<div class="clear"></div>
+					<div class="clearfix"></div>
 				</nav><!-- .link -->
 			</div>
 		</footer><!-- .wrap-footer -->

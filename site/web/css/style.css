@@ -1,12 +1,16 @@
+/*
+	Azul padrão: #2979ff
+*/
 @charset "UTF-8";
-
 * {
-	color: #333;
+	color: #444;
 	margin: 0;
 	padding: 0;
 	outline: none;
 	font: inherit;
 	vertical-align: baseline;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 button::-moz-focus-inner,
@@ -63,7 +67,6 @@ body {
 .show { display: block !important; }
 .invisible { visibility: hidden !important; }
 .visible { visibility: visible !important; }
-.clear { clear: both; }
 .font-italic { font-style: italic; }
 .font-bold { font-weight: bold; }
 .text-center { text-align: center; }
@@ -77,6 +80,11 @@ body {
 .float-left { float: left; }
 .float-right { float: right; }
 .circle { border-radius: 50%; }
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix { clear: both; }
 .bt {
 	display: inline-block;
 	height: 28px;
@@ -127,7 +135,7 @@ textarea.tf {
 /* FIM DOS PADRÕES DE ESTILO */
 
 .wrap {
-	background: transparent url("../img/bg-header.png") no-repeat fixed top center;
+	background: transparent url("../img/backgrounds/bg-header.png") no-repeat fixed top center;
 }
 
 .wrap .content {
@@ -144,7 +152,7 @@ textarea.tf {
 
 .wrap-header .content h1 {
 	color: #fff;
-	font-size: 70px;
+	font-size: 5.3em;
 	padding: 40px 0 0 0;
 }
 
@@ -164,6 +172,7 @@ textarea.tf {
 .wrap-header .navbar .menu li a {
 	display: block;
 	color: #fff;
+	font-size: 15px;
 	padding: 10px 30px;
 }
 
@@ -184,7 +193,7 @@ textarea.tf {
 
 /* SERVIÇOS */
 .wrap-main .wrap-services {
-	background: #f0f0f0;
+	background: #f3f3f3;
 }
 
 .wrap-main .services .item {
@@ -205,7 +214,7 @@ textarea.tf {
 .wrap-main .services .item h2 {
 	/*padding: 10px 0 0 0;*/
 	padding: 0 0 20px 0;
-	font-size: 18px;
+	font-size: 1.3em;
 	text-shadow: 1px 1px 2px #999;
 }
 
@@ -229,13 +238,27 @@ textarea.tf {
 
 /* WRAP MOBILE */
 .wrap-main .wrap-mobile {
-	height: 400px;
-	/*background: #f2f2f2;*/
+	/*height: 400px;*/
+	/*background: #999;*/
+}
+
+.wrap-main .wrap-mobile h2 {
+	font-size: 3em;
+}
+
+.wrap-main .wrap-mobile p {
+	font-size: 1.4em;
+}
+
+/* WRAP TEST */
+.wrap-main .wrap-test {
+	background: #f3f3f3;
 }
 
 /* RODAPE */
 .wrap-footer {
 	padding: 80px 0 60px 0;
+	background: #fff;
 }
 
 .wrap-footer .content {
@@ -254,6 +277,6 @@ textarea.tf {
 	margin: 0 10% 0 0;
 }
 
-.wrap-footer .links ul li{
+.wrap-footer .links ul li {
 	padding: 4px 0;
 }
