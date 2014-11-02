@@ -41,19 +41,19 @@
 					<div class="services text-center">
 						<div class="item">
 							<h2>Web</h2>
-							<img class="circle" src="/web/img/content/tech.jpg" alt="">
+							<img class="img-responsive circle" src="/web/img/content/tech.jpg" alt="">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus at culpa obcaecati, recusandae. Tenetur neque, ad quam cumque consequuntur modi ea officiis voluptatem architecto. Excepturi iure accusantium, doloribus fugiat earum.</p>
 							<a class="bt bt-more" href="#">Saiba mais</a>
 						</div>
 						<div class="item">
 							<h2>Mobile</h2>
-							<img class="circle" src="/web/img/content/tech.jpg" alt="">
+							<img class="img-responsive circle" src="/web/img/content/tech.jpg" alt="">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, optio voluptate sapiente hic cumque sunt harum porro dolorem blanditiis enim. Eligendi quos minima provident minus, laborum nihil repellendus, ipsa alias.</p>
 							<a class="bt bt-more" href="#">Saiba mais</a>
 						</div>
 						<div class="item">
 							<h2>Linux</h2>
-							<img class="circle" src="/web/img/content/tech.jpg" alt="">
+							<img class="img-responsive circle" src="/web/img/content/tech.jpg" alt="">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt inventore dolorum iste expedita vel odio doloremque corporis officia tenetur quam quae atque aperiam, in accusantium. Veritatis soluta natus sapiente, assumenda!</p>
 							<a class="bt bt-more" href="#">Saiba mais</a>
 						</div>
