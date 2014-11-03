@@ -23,7 +23,7 @@
 		<header class="wrap-header responsive">
 			<div class="content">
 				<h1 class="text-center" title="Edvaldo Szymonek - Soluções Web e Mobile">Edvaldo Szymonek</h1>
-				<nav class="navbar responsive">
+				<div class="navbar responsive">
 					<ul class="menu">
 						<li><a href="/" title="Página inicial">Home</a></li>
 						<li><a href="/blog" title="Artigos, tutoriais e muito mais">Blog</a></li>
@@ -31,11 +31,11 @@
 						<li><a href="/portifolio" title="Meus trabalhos">Portifólio</a></li>
 						<li><a href="/contato" title="Entre em contato">Contato</a></li>
 					</ul>
-				</nav><!-- .navbar -->
+				</div><!-- .navbar -->
 			</div>
 		</header><!-- .wrap-header -->
 
-		<main class="wrap-main responsive">
+		<div class="wrap-main responsive">
 			<section class="container responsive wrap-services">
 				<div class="content">
 					<div class="services text-center">
@@ -76,14 +76,15 @@
 
 			<section class="container responsive wrap-test">
 				<div class="content">
+					<h2>Teste</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic magni nesciunt rem, deserunt ratione veniam quis, quidem, non adipisci amet magnam quasi quae animi ea. Numquam cupiditate, maxime commodi totam.</p>
 				</div>
 			</section>
-		</main><!-- .wrap-content -->
+		</div><!-- .wrap-content -->
 
-		<footer class="wrap-footer responsive">
+		<div class="wrap-footer responsive">
 			<div class="content">
-				<nav class="links">
+				<div class="links">
 					<ul>
 						<li class="font-bold">Website</li>
 						<li><a href="/" title="Página inicial">Home</a></li>
@@ -104,9 +105,9 @@
 						<li><a href="http://github.com/edvaldotsi" target="_blank" title="Copie, modifique, contribua com projetos">Github</a></li>
 					</ul>
 					<div class="clearfix"></div>
-				</nav><!-- .link -->
+				</div><!-- .link -->
 			</div>
-		</footer><!-- .wrap-footer -->
+		</div><!-- .wrap-footer -->
 	</div>
 </body>
 </html>
