@@ -140,7 +140,7 @@ textarea.tf {
 /* FIM DOS PADRÕES DE ESTILO */
 
 .wrap {
-	background: transparent url("../img/backgrounds/bg-header.png") no-repeat fixed top center;
+	background: transparent url("../img/backgrounds/bg-header.jpg") no-repeat fixed top center;
 }
 
 .wrap .content {
@@ -152,7 +152,7 @@ textarea.tf {
 
 /* CABEÇALHO */
 .wrap-header {
-	height: 370px;
+	height: 600px;
 }
 
 .wrap-header .content h1 {
