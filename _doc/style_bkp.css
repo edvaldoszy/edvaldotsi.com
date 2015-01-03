@@ -1,10 +1,6 @@
-/**
- * CSS Reset
- * 
- * @version 1.1
- * @link http://github.com/edvaldotsi/css-reset
- * @author Edvaldo Szymonek <info@edvaldotsi.com>
- */
+/*
+	Azul padrão: #2979ff
+*/
 @charset "UTF-8";
 @font-face {
 	font-family: "Open Sans";
@@ -13,7 +9,7 @@
 	src: local('Open Sans Light'), local('OpenSans-Light'), url("http://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff") format("woff");
 }
 * {
-	color: inherit;
+	color: #444;
 	margin: 0;
 	padding: 0;
 	outline: none;
@@ -21,8 +17,6 @@
 	vertical-align: baseline;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	-o-box-sizing: border-box;
 	box-sizing: border-box;
 }
 button::-moz-focus-inner,
@@ -31,23 +25,20 @@ input::-moz-focus-inner {
 	border: 0;
 }
 :focus, :active {
-	outline: 0;
+	outline: none;
 }
 a:link, a:visited {
 	color: #428bca;
 	text-decoration: none;
 }
 a:hover, a:focus {
-	color: #2a6496;
+	/*color: #2a6496;*/
 	text-decoration: underline;
-}
-small {
-	font-size: 80%;
 }
 strong, b {
 	font-weight: bold;
 }
-em, i {
+i {
 	font-style: italic;
 }
 table {
@@ -56,7 +47,6 @@ table {
 }
 img {
 	vertical-align: middle;
-	border: 0;
 }
 hr {
 	margin: 20px 0;
@@ -70,16 +60,21 @@ section, summary {
 }
 input, button,
 select, textarea {
-	color: inherit;
 	font: inherit;
 }
-/* END OF CSS RESET */
+body {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 14px;
+}
+
+/* FIM DO CSS RESET */
 
 .hide { display: none !important; }
 .show { display: block !important; }
 .invisible { visibility: hidden !important; }
 .visible { visibility: visible !important; }
 .font-italic { font-style: italic; }
+.font-bold { font-weight: bold; }
 .text-center { text-align: center; }
 .text-justify { text-align: justify; }
 .text-left { text-align: left; }
@@ -91,41 +86,11 @@ select, textarea {
 .float-left { float: left; }
 .float-right { float: right; }
 .circle { border-radius: 50%; }
-.center-box {
-	display: block;
-	margin: 0 auto;
-}
-.clear-fix:after {
+.clearfix:before, .clearfix:after {
 	content: " ";
 	display: table;
-	clear: both;
 }
-.modal-overlay {
-	position: fixed;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	z-index: 10000;
-	overflow: hidden;
-	background-color: rgba(0, 0, 0, .8);
-}
-.modal {
-	position: fixed;
-	top: 30px;
-	right: 30px;
-	bottom: 30px;
-	left: 30px;
-	z-index: 10001;
-	overflow: hidden;
-	background-color: rgba(255, 255, 255, 1);
-}
-.gph {
-	display: inline-block;
-	vertical-align: middle;
-	width: 24px;
-	height: 24px;
-}
+.clearfix { clear: both; }
 .bt {
 	display: inline-block;
 	height: 28px;
@@ -137,35 +102,48 @@ select, textarea {
 	border: 1px solid transparent;
 	border-radius: 3px;
 }
+.bt-default {
+	background-image: -webkit-linear-gradient(bottom, #e6e6e6, #f3f3f3);
+	background-image: -moz-linear-gradient(bottom, #e6e6e6, #f3f3f3);
+	background-image: linear-gradient(bottom, #e6e6e6, #f3f3f3);
+	border: 1px solid #c3c3c3;
+}
+.bt-default:hover {
+	border: 1px solid #b4b4b4;
+}
+.bt-default:focus {
+	box-shadow: inset 0 0 3px #ccc;
+}
 .tf {
 	display: inline;
-	color: #333;
+	color: #333 !important;
 	height: 28px;
 	padding: 0 8px;
-	vertical-align: middle;
 	background-color: #fff;
 	border: 1px solid transparent;
 }
 textarea.tf {
 	padding-top: 4px;
 }
-.fluid {
+.tf-default {
+	background-color: #fff;
+	border: 1px solid #ccc;
+}
+.tf-default:focus {
+	border: 1px solid #0099ff;
+}
+.responsive {
 	display: block;
 	width: 100%;
 	height: auto;
 }
-.img-fluid {
+.img-responsive {
 	display: block;
 	max-width: 100%;
 	height: auto;
 }
-/* END OF DEFAULT STYLES */
 
-body {
-	font-family: "Open Sans", Arial, sans-serif;
-	font-size: 14px;
-}
-
+/* FIM DOS PADRÕES DE ESTILO */
 
 .wrap {
 	background: transparent url("../img/backgrounds/bg-header.jpg") no-repeat fixed top center;
@@ -183,18 +161,14 @@ body {
 	height: 600px;
 }
 
-.wrap-header .navbar {
-	padding: 1.4em 0 0 0;
+.wrap-header .content h1 {
+	color: #fff;
+	font-size: 5.3em;
+	padding: 40px 0 0 0;
 }
 
-.wrap-header .navbar .dropdown {
-	display: none;
-	float: right;
-	width: 38px;
-	height: 38px;
-	background: url("../img/icons/menu.png") center center;
-	background-size: contain;
-	border: none;
+.wrap-header .navbar {
+	margin: 20px 0 0 0;
 }
 
 .wrap-header .navbar .menu {
@@ -208,17 +182,9 @@ body {
 
 .wrap-header .navbar .menu li a {
 	display: block;
-	color: #f7f7f7;
+	color: #fff;
 	font-size: 15px;
 	padding: 10px 30px;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, .7);
-}
-
-.wrap-header .content h1 {
-	color: #fff;
-	font-size: 5.3em;
-	padding: .4em 0;
-	text-shadow: 1px 1px 5px rgba(0, 0, 0, .7);
 }
 
 /* CORPO */
@@ -234,13 +200,6 @@ body {
 .container h3 {
 	font-size: 40px;
 	font-weight: bold;
-}
-
-/* ABOUT */
-.wrap-about .about-text {
-	font-size: 1.6em;
-	text-align: center;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
 }
 
 /* SERVIÇOS */
@@ -309,15 +268,17 @@ body {
 
 /* RODAPE */
 .wrap-footer {
-	padding: 2em 0;
+	padding: 80px 0 60px 0;
 	background: #fff;
 }
 
-.wrap-footer .content {}
+.wrap-footer .content {
+	padding: 60px 0 0 0;
+	border-top: 1px solid #ccc;
+}
 
 .wrap-footer .links {
-	padding: .8em 0 0 0;
-	border-top: 1px solid #ccc;
+	/*width: 50%;*/
 }
 
 .wrap-footer .links ul {
@@ -329,36 +290,4 @@ body {
 
 .wrap-footer .links ul li {
 	padding: 4px 0;
-}
-
-@media all and (max-width: 990px) {
-	.wrap .content {
-		padding: 0 1em;
-		text-align: center;
-	}
-
-	/* HEADER */
-	.wrap-header {
-		height: auto;
-	}
-
-	.wrap-header .navbar .menu {
-		display: none;
-	}
-
-	.wrap-header .navbar .dropdown {
-		display: block;
-	}
-
-	.wrap-header .navbar .menu li {
-		display: block;
-	}
-
-	.wrap-main .services .item {
-		width: 100%;
-	}
-
-	.wrap-footer .content {
-		text-align: left;
-	}
 }

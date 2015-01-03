@@ -4,9 +4,9 @@
 	<meta charset="UTF-8">
 	<title>Edvaldo Szymonek</title>
 	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Edvaldo Szymonek - Soluções Web e Mobile">
 	<meta name="keywords" content="soluções, web, mobile, android, ios, internet">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta property="og:url" content="http://edvaldotsi.com">
 	<meta property="og:locale" content="pt_BR">
 	<meta property="og:type" content="website">
@@ -14,16 +14,14 @@
 	<meta property="og:site_name" content="Edvaldo Szymonek">
 	<meta property="og:description" content="Descrição do website para o Facebook">
 	<link rel="shortcut icon" href="/web/img/icons/favicon.ico" type="image/x-icon">
-	<!--<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="/web/css/style.css" media="all">
 </head>
 <body>
 	<div class="wrap">
-		<header class="wrap-header responsive">
+		<header class="wrap-header">
 			<div class="content">
-				<h1 class="text-center" title="Edvaldo Szymonek - Soluções Web e Mobile">Edvaldo Szymonek</h1>
-				<div class="navbar responsive">
+				<div class="navbar clear-fix">
+					<button class="dropdown" onclick="this.parentNode.querySelector('.menu').classList.toggle('show')">&nbsp;</button>
 					<ul class="menu">
 						<li><a href="/" title="Página inicial">Home</a></li>
 						<li><a href="/blog" title="Artigos, tutoriais e muito mais">Blog</a></li>
@@ -32,49 +30,18 @@
 						<li><a href="/contato" title="Entre em contato">Contato</a></li>
 					</ul>
 				</div><!-- .navbar -->
+				<h1 class="text-center" title="Edvaldo Szymonek - Soluções Web e Mobile">Edvaldo Szymonek</h1>
 			</div>
 		</header><!-- .wrap-header -->
 
-		<div class="wrap-main responsive">
-			<section class="container responsive wrap-services">
+		<div class="wrap-main">
+			<section class="wrap-about container">
 				<div class="content">
-					<div class="services text-center">
-						<div class="item">
-							<h2>Web</h2>
-							<img class="img-responsive circle" src="/web/img/content/tech.jpg" alt="">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus at culpa obcaecati, recusandae. Tenetur neque, ad quam cumque consequuntur modi ea officiis voluptatem architecto. Excepturi iure accusantium, doloribus fugiat earum.</p>
-							<a class="bt bt-more" href="#">Saiba mais</a>
-						</div>
-						<div class="item">
-							<h2>Mobile</h2>
-							<img class="img-responsive circle" src="/web/img/content/tech.jpg" alt="">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, optio voluptate sapiente hic cumque sunt harum porro dolorem blanditiis enim. Eligendi quos minima provident minus, laborum nihil repellendus, ipsa alias.</p>
-							<a class="bt bt-more" href="#">Saiba mais</a>
-						</div>
-						<div class="item">
-							<h2>Linux</h2>
-							<img class="img-responsive circle" src="/web/img/content/tech.jpg" alt="">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt inventore dolorum iste expedita vel odio doloremque corporis officia tenetur quam quae atque aperiam, in accusantium. Veritatis soluta natus sapiente, assumenda!</p>
-							<a class="bt bt-more" href="#">Saiba mais</a>
-						</div>
-						<div class="clearfix"></div>
-					</div> <!-- .services -->
+					<p class="about-text">Brasileiro, desenvolvedor na empresa BLZ Soluções Web, moro em Campo Mourão e sou estudante de Tecnologia em Analise e Desenvolvimento de sistemas na faculdade Integrado de Campo Mourão</p>
 				</div>
 			</section>
 
-			<section class="container responsive wrap-mobile">
-				<div class="content">
-					<img class="float-left" src="/web/img/content/smartphones.png" alt="Smartphone">
-					<h2>
-						<div>Acesse a qualquer hora, em qualquer lugar.</div>
-						<div>Seu site disponível na maioria dos dipositivos e resoluções.</div>
-					</h2>
-					<p>Nossos layouts são desenvolvidos pensando na melhor experiência do usuário, seja utilizando um computador ou um smartphone.</p>
-					<div class="clearfix"></div>
-				</div>
-			</section>
-
-			<section class="container responsive wrap-test">
+			<section class="wrap-test container">
 				<div class="content">
 					<h2>Teste</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic magni nesciunt rem, deserunt ratione veniam quis, quidem, non adipisci amet magnam quasi quae animi ea. Numquam cupiditate, maxime commodi totam.</p>
@@ -82,9 +49,9 @@
 			</section>
 		</div><!-- .wrap-content -->
 
-		<div class="wrap-footer responsive">
+		<div class="wrap-footer container">
 			<div class="content">
-				<div class="links">
+				<div class="links clear-fix">
 					<ul>
 						<li class="font-bold">Website</li>
 						<li><a href="/" title="Página inicial">Home</a></li>
@@ -104,7 +71,6 @@
 						<li class="font-bold">Comunidade</li>
 						<li><a href="http://github.com/edvaldotsi" target="_blank" title="Copie, modifique, contribua com projetos">Github</a></li>
 					</ul>
-					<div class="clearfix"></div>
 				</div><!-- .link -->
 			</div>
 		</div><!-- .wrap-footer -->
