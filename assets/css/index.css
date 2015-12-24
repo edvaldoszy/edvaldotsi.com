@@ -1,0 +1,140 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 14px;
+	padding: 0;
+	color: #333;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+:focus, :active {
+	outline: 0;
+}
+a:link, a:visited {
+	color: #428bca;
+	text-decoration: none;
+}
+a:hover, a:focus {
+	color: #2a6496;
+	text-decoration: underline;
+}
+.clear:after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+.pull-left { float: left; }
+.pull-right { float: right; }
+.text-center { text-align: center; }
+.bold { font-weight: bold; }
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+.wrap {}
+.content {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 990px;
+}
+.container {
+	padding: 4em 0;
+}
+.span3 {
+	width: 33.333333%
+}
+.wrap-header {
+	min-height: 600px;
+	background: url("../img/background/header1.jpg") no-repeat fixed top center;
+}
+.wrap-header .navbar {
+	padding-top: 1.4em;
+}
+.topmenu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+.topmenu li {
+	display: inline-block;
+}
+.topmenu li a {
+	color: #fff;
+	padding: .6em 3em;
+	font-weight: bold;
+	letter-spacing: .1em;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, .9);
+}
+.topmenu .active {
+    /* something different */
+}
+.wrap-header h1 {
+	color: #fff;
+	margin: 0;
+	padding: 1em 0;
+	font-size: 5.3em;
+	font-weight: normal;
+	text-align: center;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, .7);
+}
+.wrap-about {
+	color: #f9f9f9;
+	font-size: 1.6em;
+	text-align: center;
+	background: #1B232C;
+}
+.wrap-about p {
+    margin: 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .7);
+}
+.wrap-services {}
+.wrap-services .sv img {
+	max-width: 120px;
+}
+.wrap-project {
+    min-height: 500px;
+    background: url("../img/background/project.jpg") no-repeat center center;
+    background-size: cover;
+}
+.wrap-mobile {}
+.wrap-footer {}
+.wrap-footer .content {
+	padding-top: 1.4em;
+	border-top: 1px solid #ccc;
+}
+.wrap-footer .social ul {
+	float: left;
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 0 10% 0 0;
+}
+.wrap-footer .social ul li {
+	padding: 4px 0;
+}
+@media all and (max-width: 990px) {
+    .content {
+        padding: 0 .6em;
+    }
+    .topmenu li {
+    	display: block;
+    	padding: 1em 0;
+    }
+}
+@media all and (max-width: 678px) {
+    .sv {
+        padding: 0 0 3em 0;
+    }
+    .span3 {
+        width: 100%;
+    }
+}

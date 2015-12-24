@@ -1,0 +1,21 @@
+# Arquivos de configuracao do servidor Apache
+# Edvaldo Szymonek <edvaldoszy@gmail.com>
+# 11 de Outubro de 2014
+
+# Desativa a exibicao de erros do PHP
+#php_value display_errors Off
+
+# Ativando o mecanismo de reescrita de URL
+RewriteEngine On
+
+# Diretório base
+RewriteBase /
+
+# Nao aplica as regras de reescrita em diretorios e arquivos existentes
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# NC - Nao diferencia caracteres maiusculos e minusculos
+# QSA - Quando a URL conter uma Query String combina com a regra de reescrita
+# L - Se a expressao casar, sera a ultima regra a ser executada
+RewriteRule ^(.*)\.html$ index.php?__uri=$1 [NC,QSA]
