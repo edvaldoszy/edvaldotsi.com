@@ -18,4 +18,4 @@ RewriteCond %{REQUEST_FILENAME} !-f
 # NC - Nao diferencia caracteres maiusculos e minusculos
 # QSA - Quando a URL conter uma Query String combina com a regra de reescrita
 # L - Se a expressao casar, sera a ultima regra a ser executada
-RewriteRule ^(.*)\.html$ index.php?__uri=$1 [NC,QSA]
+RewriteRule ^([^?]*)\.html$ index.php?__uri=$1 [NC,QSA]
