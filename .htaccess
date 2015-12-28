@@ -5,6 +5,23 @@
 # Desativa a exibicao de erros do PHP
 #php_value display_errors Off
 
+# Nao permite que o usuario acesse as pastas diretamente
+Options -Indexes
+
+# Ativa o metodo de compressao DEFLATE
+<IfModule mod_deflate.c>
+    <filesMatch "\.(js|css|html|php)$">
+        SetOutputFilter DEFLATE
+    </filesMatch>
+</IfModule>
+
+# Envia um cabecalho informando o tempo de cache de cada arquivo
+<IfModule mod_headers.c>
+    <FilesMatch "\.(js|css|svg|woff|ttf)$">
+        Header set Cache-Control max-age=604800
+    </FilesMatch>
+</IfModule>
+
 # Ativando o mecanismo de reescrita de URL
 RewriteEngine On
 
