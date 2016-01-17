@@ -1,14 +1,4 @@
-<?php
-    function menu($name)
-    {
-        if (isset($_GET['__uri'])) {
-            return ($name == $_GET['__uri']) ? 'active' : '';
-        } else {
-            return ($name == 'home') ? 'active' : '';
-        }
-    }
-
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 	<meta charset="UTF-8">
