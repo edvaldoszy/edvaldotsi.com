@@ -31,6 +31,7 @@ a:hover, a:focus {
 	display: block;
 	clear: both;
 }
+.hide { display: none !important; }
 .pull-left { float: left; }
 .pull-right { float: right; }
 .text-center { text-align: center; }
@@ -54,28 +55,6 @@ a:hover, a:focus {
 .wrap-header {
 	min-height: 600px;
 	background: url("../img/background/header1.jpg") no-repeat fixed top center;
-}
-.wrap-header .navbar {
-	padding-top: 1.4em;
-}
-.topmenu {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	text-align: center;
-}
-.topmenu li {
-	display: inline-block;
-}
-.topmenu li a {
-	color: #fff;
-	padding: .6em 3em;
-	font-weight: bold;
-	letter-spacing: .1em;
-	text-shadow: 1px 1px 2px rgba(0, 0, 0, .9);
-}
-.topmenu .active {
-    /* something different */
 }
 .wrap-header h1 {
 	color: #fff;
@@ -120,6 +99,50 @@ a:hover, a:focus {
 }
 .wrap-footer .social ul li {
 	padding: 4px 0;
+}
+.left-menu-icon {
+    display: block;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+.left-menu {
+	position: fixed;
+	left: -100%;
+	top: 0;
+	bottom: 0;
+	width: 280px;
+	background: rgba(45, 56, 66, 1);
+    transition: all .2s;
+}
+.left-menu ul {
+    list-style: none;
+    display: block;
+    padding: 0;
+}
+.left-menu li {
+    display: block;
+}
+.left-menu li a {
+    color: #fff;
+    display: block;
+    padding: 10px 10px 10px 24px;
+    text-decoration: none;
+}
+.left-menu li:hover a {
+    background: rgb(67, 80, 90);
+}
+.active-left-menu {
+    left: 0;
+}
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    transition: all .2s;
 }
 @media all and (max-width: 990px) {
     .content {

@@ -41,14 +41,6 @@
 	<div class="wrap">
 		<div class="wrap-header">
 			<div class="content">
-				<div class="navbar">
-					<ul class="topmenu">
-						<li><a class="<?= menu('home') ?>" href="/" title="Página inicial">Home</a></li>
-						<li><a href="http://blog.edvaldotsi.com" title="Artigos, tutoriais e muito mais" target="_blank">Blog</a></li>
-						<li><a class="<?= menu('portfolio') ?>" href="portfolio.html" title="Meus trabalhos">Portfólio</a></li>
-						<li><a class="<?= menu('contato') ?>" href="/contato.html" title="Entre em contato">Contato</a></li>
-					</ul>
-				</div>
 				<h1>Edvaldo Szymonek</h1>
 			</div>
 		</div><!-- .wrap-header -->
@@ -113,5 +105,29 @@
 			</section>
 		</div><!-- .wrap-main -->
 	</div><!-- .wrap -->
+    <a class="left-menu-icon" href="#"><img src="assets/img/icon/menu.png" alt="Menu"></a>
+    <div class="menu-overlay hide"></div>
+	<div class="left-menu">
+		<ul>
+			<li><a href="/" title="Página inicial">HOME</a></li>
+            <li><a href="/sobre.html" title="Um pouco sobre mim">SOBRE</a></li>
+			<li><a href="http://blog.edvaldotsi.com/" title="Artigos, tutoriais e muito mais">BLOG</a></li>
+			<li><a href="/portfolio.html" title="Meus trabalhos">PORTFÓLIO</a></li>
+			<li><a href="/contato.html" title="Entre em contato">CONTATO</a></li>
+		</ul>
+	</div>
+    <script>
+        document.querySelector('.left-menu-icon').onclick = function() {
+            document.querySelector('.menu-overlay').classList.remove('hide');
+            document.querySelector('.left-menu').classList.add('active-left-menu');
+            return false;
+        };
+
+        document.querySelector('.menu-overlay').onclick = function() {
+            document.querySelector('.menu-overlay').classList.add('hide');
+            document.querySelector('.left-menu').classList.remove('active-left-menu');
+            return false;
+        }
+    </script>
 </body>
 </html>
